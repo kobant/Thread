@@ -30,6 +30,7 @@ public class JavaMess {
 					e.printStackTrace();
 				}finally {
 					//释放资源
+					//测试用户 liaocongcong
 					semaphore.release();
 				}
 			},"汽车" + i).start();
